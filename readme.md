@@ -1,3 +1,3 @@
-# Projenin Canlı adresi
+👇👇👇
 
-https://tahmin-et.netlify.app/
+[https://soyluemre.github.io/guess-number/](https://soyluemre.github.io/guess-number/)
