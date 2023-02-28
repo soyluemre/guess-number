@@ -51,8 +51,8 @@ document.querySelector(".check-btn").addEventListener("click", () => {
     score--;
     if (score > 0) {
       guessInput > randomNumber
-        ? (msg.innerHTML = `<i class="fa-solid fa-arrow-trend-up"></i> DECREASE`)
-        : (msg.innerHTML = `<i class="fa-solid fa-arrow-trend-down"></i> INCREASE`);
+        ? (msg.innerHTML = `<i class="fa-solid fa-arrow-trend-down"></i> DECREASE`)
+        : (msg.innerHTML = `<i class="fa-solid fa-arrow-trend-up"></i> INCREASE`);
     } else {
       msg.innerHTML = `You Lost <i class="fa-regular fa-face-sad-tear fa-2x"></i>`;
       document.querySelector(".secret-number").textContent = randomNumber;
